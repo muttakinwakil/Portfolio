@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font: inherit;
-    background: #cfd0d3;
+    background: #151516;
 } 
 
 .navbar {
@@ -11,33 +11,34 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-    background-color: slateblue;
+    transition-duration: 0.5s;
 }
 
 .title {
     color: rgb(255, 255, 255);
     text-align: left;
     font-size: 40px;
+    font-weight: bold;
     margin-left: 30px;
     margin-top: 0px;
-    background-color: slateblue;
 }
 
 .nav-links {
     list-style: none;
     padding: 0;
     text-decoration: none;
-    background-color: slateblue;
 }
 
 .nav-links li {
     display: inline;
     margin-right: 20px;
-    background-color: slateblue;
 }
 .nav-links li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 20px;
-    background-color: slateblue;
+}
+.nav-links li :hover,
+.nav-links li :active {
+    color: rgb(236, 253, 0);
 }
