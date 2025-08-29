@@ -2,68 +2,65 @@
     margin: 0;
     padding: 0;
     font: inherit;
-    background: #dedeef;
 } 
-
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
-    transition-duration: 0.5s;
-}
-
-.title {
-    color: rgb(255, 255, 255);
-    text-align: left;
-    font-size: 40px;
-    font-weight: bold;
-    margin-left: 30px;
-    margin-top: 0px;
-}
+      display: flex;              
+      align-items: center;        
+      justify-content: space-between; 
+      background: #f8f8f8;
+      padding: 15px 30px;
+      text-decoration: none;
+      
+    }
 
 .nav-links {
-    list-style: none;
-    padding: 0;
-    text-decoration: none;
+      list-style: none;
+      display: flex;
+      gap: 25px;                 
+      margin: 0;
+      padding: 0;
+    }
+.nav-links a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+.nav-links a:hover {
+      color: tomato;
+      transition-duration: 0.5s;
+      transform: scale(1.5);
 }
 
-.nav-links li {
-    display: inline;
-    margin-right: 20px;
-}
-.nav-links li a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-}
-.nav-links li :hover,
-.nav-links li :active {
-    color: rgb(236, 253, 0);
-}
-.btncv {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-.btncv:hover {
-    background-color: rgb(233, 235, 204);
-    
-}
 
+.navbar .title {
+      font-size: 24px;
+      font-weight: bold;
+      color: tomato;
+}
+.home {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px 30px;
+}
+.home-info {
+      flex: 1;
+      padding-right: 30px;
+}
+.home img {
+      max-width: 100%;
+      height: auto;
+      /* mix-blend-mode: color-dodge; */
+      border-radius: 100%;
+}
 .name {
-    font-size: 36px;
-    margin: 20px;
+      font-size: 100px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
 }
 .details {
-    font-size: 18px;
-    color: rgb(100, 100, 100);
-    margin: 20px;
-}
-.home-info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+      font-size: 35px;
+      color: #666;
+      margin-bottom: 20px;
 }
